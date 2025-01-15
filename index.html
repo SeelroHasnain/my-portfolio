@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="logo.PNG" alt="our main logo" class="logo" />
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="#home" class="navbar-link home-link">Home</a></li>
+                <li>
+                    <a href="#about" class="navbar-link about-link">About</a>
+                </li>
+                <li>
+                    <a class="navbar-link service-link" href="#service">Services</a>
+                </li>
+                <li>
+                    <a class="navbar-link portfolio-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="navbar-link contact-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+    <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+    <main>
+        <section id="home" class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">hasnain seelro</h1>
+                    <p class="hero-para">
+                        I'm Hasnain Seelro. A Front-end Developer, IT Instructor and
+                        part time tutor. An IT Instructor , Front-end Developer and freelancer.
+                    </p>
+                    <div>
+                        <a href="#" class="btn hireme-btn">Hire me</a>
+                    </div>
+                </div>
+                <!-- hero section right side  -->
+                <div class="section-hero-image">
+                    <picture>
+                        <source srcset="portfolio.jpg" type="image/webp" />
+                        <source srcset="portfolio.jpg" type="image/jpg" />
+                        <img src="portfolio.jpg" alt="this is me Hasnain" class="hero-img" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ======================================== 
+          Our Bio-Data Section Start  
+    ========================================  -->
+
+    <section id="about" class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="bio-data.jpg" alt="my bio data image" />
+            </div>
+            <!-- bio right side data  -->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    natus eum quibusdam, blanditiis nobis dolor distinctio asperiores
+                    itaque voluptas nesciunt cum dolorum. Quidem sed id repellat facere
+                </p>
+                <br />
+                <p>
+                    itaque voluptas nesciunt cum dolorum. Quidem sed id repellat facere
+                    quod placeat praesentium.
+                </p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>HTML-CSS</h3>
+                        <div class="bio-progress-bar">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>BOOSTRAP - JQUERY</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>SEO</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>UI/UX</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our portfolio Section Start  
+    ========================================  -->
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Works</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex
+                eos commodi provident tempore possimus, mollitia vero quas.
+            </p>
+        </div>
+
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Project1</div>
+            <div class="btn p-btn" data-btn-num="1">Project2</div>
+            <div class="btn p-btn" data-btn-num="1">Project3</div>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="work3.jpg" alt="my works" />
+                <div class="overlay">
+                    <a href="#" target="_thapa" class="common-heading">Project
+                        1</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="work3.jpg" alt="my works" />
+                <div class="overlay">
+                    <a href="#" target="_thapa" class="common-heading">Project 2
+                    </a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="work3.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project 3</a>
+                </div>
+            </div>
+            <!-- <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="work4.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="" target="_blank" class="common-heading">Project 4</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="work4.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="" target="_blank" class="common-heading">Project 5</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="work4.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="" target="_blank" class="common-heading">Project 6</a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- ======================================== 
+          Our work counter Section Start  
+    ========================================  -->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="2000">30+</h2>
+                <p>project completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="6000">20+</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="5000">10+</h2>
+                <p>cups of coffee</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="3000">5+</h2>
+                <p>real professionals</p>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================== 
+          Our Services  Section Start  
+    ========================================  -->
+
+    <section id="service" class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex
+                dolores tempore possimus, mollitia vero quas
+            </p>
+        </div>
+
+        <!-- services offers card  -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+                <h3>Web Designing</h3>
+                <p>
+                    “It is not because things are difficult that we do not dare; it is
+                    because we do not dare that they are difficult.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>website development</h3>
+                <p>
+                    “It is not because things are difficult that we do not dare; it is
+                    because we do not dare that they are difficult.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <!-- <ion-icon name="camera-sharp" class="service-icon"></ion-icon> -->
+                <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+                <h3>Online Training</h3>
+                <p>
+                    “It is not because things are difficult that we do not dare; it is
+                    because we do not dare that they are difficult.”
+                </p>
+            </div>
+
+            <!-- <div class="service-box">
+                <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+                <h3>Mobile Apps</h3>
+                <p>
+                    “It is not because things are difficult that we do not dare; it is
+                    because we do not dare that they are difficult.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="globe-sharp" class="service-icon"></ion-icon>
+                <h3>apps interface</h3>
+                <p>
+                    “It is not because things are difficult that we do not dare; it is
+                    because we do not dare that they are difficult.”
+                </p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="images-sharp" class="service-icon"></ion-icon>
+                <h3>graphic design</h3>
+                <p>
+                    “It is not because things are difficult that we do not dare; it is
+                    because we do not dare that they are difficult.”
+                </p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Resume  Section Start  
+    ========================================  -->
+
+    <section id="portfolio" class="section section-resume">
+        <div class="container grid grid-two-column">
+            <!-- resume left side  -->
+            <div class="resume-img">
+                <img class="lazy-img" src="resume.jpg" data-src="images/biodata.jpg" alt="resume image"
+                    loading="lazy" />
+            </div>
+
+            <!-- resume right side  -->
+            <div class="resume-data">
+                <h2 class="common-heading">resume</h2>
+                <p class="resume-para">My Work Experience</p>
+
+                <div class="resume-data-subsection">
+                    <div class="resume-data-left">
+                        <h3>IT Instructor</h3>
+                        <div class="grid grid-two-column">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon> Aptech Learning Pakistan 
+                                 .
+                            </p>
+                            <p><ion-icon name="location-outline"></ion-icon>Karachi, Sindh</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-data-right">
+                        <p class="resume-data-button">fulltime</p>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <span>March 2024 - Present </span>
+                        </p>
+                    </div>
+                </div>
+                <!-- end  -->
+
+                <div class="resume-data-subsection">
+                    <div class="resume-data-left">
+                        <h3>Online Tutor</h3>
+                        <div class="grid grid-two-column">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon> Hasnain.in Online 
+                                .
+                            </p>
+                            <p><ion-icon name="location-outline"></ion-icon> Karachi, Sindh</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-data-right">
+                        <p class="resume-data-button">Part-time</p>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <span>April 2024 - Present </span>
+                        </p>
+                    </div>
+                </div>
+                <!-- end  -->
+
+                <div class="resume-data-subsection">
+                    <div class="resume-data-left">
+                        <h3>Web Developer Intern</h3>
+                        <div class="grid grid-two-column">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon> KaamSay Pakistan
+                                .
+                            </p>
+                            <p><ion-icon name="location-outline"></ion-icon> Jamshoro, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-data-right">
+                        <p class="resume-data-button">Intern</p>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <span>Feb 2022 - July 2022 </span>
+                        </p>
+                    </div>
+                </div>
+                <!-- end  -->
+
+                <div class="resume-data-subsection">
+                    <div class="resume-data-left">
+                        <h3>Social Media Manager</h3>
+                        <div class="grid grid-two-column">
+                            <p>
+                                <ion-icon name="business-outline"></ion-icon> KhabarGaah.com.
+                            </p>
+                            <p><ion-icon name="location-outline"></ion-icon> Online . Jamshoro, Sindh</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-data-right">
+                        <p class="resume-data-button">Part-Time</p>
+                        <p>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <span>Aug 2021 - Jan 2022 </span>
+                        </p>
+                    </div>
+                </div>
+                <!-- end  -->
+
+                <div class="resume-data-bottom-subsection">
+                    <p class="resume-para">Education</p>
+                    <div class="resume-data-subsection margin-small">
+                        <div class="resume-data-left">
+                            <h3>B.E Software Engineering</h3>
+                            <div class="grid grid-two-column">
+                                <p>
+                                    <ion-icon name="business-outline"></ion-icon>
+                                    Mehran University of Engineering and Technology.
+                                </p>
+                                <p>
+                                    <ion-icon name="location-outline"></ion-icon> Jamshoro, Sindh.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume-data-right">
+                            <p class="resume-data-button">Bachelors</p>
+                            <p>
+                                <ion-icon name="calendar-outline"></ion-icon>
+                                <span>April 2018 - Present </span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end -->
+                    <div class="resume-data-subsection margin-small">
+                        <div class="resume-data-left">
+                            <h3>Intermediate</h3>
+                            <div class="grid grid-two-column">
+                                <p>
+                                    <ion-icon name="business-outline"></ion-icon>
+                                    Board Of Intermediate and Secondary Education .
+                                </p>
+                                <p>
+                                    <ion-icon name="location-outline"></ion-icon> Larkana, Sindh
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume-data-right">
+                            <p class="resume-data-button">Intermediate</p>
+                            <p>
+                                <ion-icon name="calendar-outline"></ion-icon>
+                                <span>March 2017 - May 2019 </span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================== 
+          Our Freelancing   Section Start  
+    ========================================  -->
+
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>available</span> for Website designing and Development and for online Training  </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
+                voluptates similique nulla vitae natus
+            </p>
+            <a href="/contact.html" class="btn">HIRE ME</a>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our contact us   Section Start  
+    ========================================  -->
+
+    <section id="contact" class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="415c39f2-d1cc-48bc-b941-6c735cce1442">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="Username" id="username" required
+                            autocomplete="off" />
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="demo@mail.com" id="email" autocomplete="off"
+                            required />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject" autocomplete="off" required />
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" autocomplete="off"
+                        placeholder="Write your message" required></textarea>
+                </div>
+                
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="send message" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+          Our Footer   Section Start  
+    ========================================  -->
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    We have tested a number of registry fix and clean utilities and
+                    present our top 3 list on our site for your convenience. Hope you
+                    like it.
+                </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">services</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end  -->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web design</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">web development</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">IT Instructor</a>
+                    </li>
+
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">SEO</a>
+                    </li>
+                    <li>
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">UI/UX</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end  -->
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div>
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            Karachi, Sindh , Pakistan
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+923491259204"> +923491259204 </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="mailto:seelrohasnain@gmail.com">
+                                seelrohasnain@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/thapatechnical/" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="https://discord.gg/MdScmCsua6" target="_blank">
+                    <ion-icon class="icons" name="logo-discord"></ion-icon>
+                </a>
+
+                <a href="https://www.youtube.com/thapatechnical" target="_blank">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p>
+                    Copyright ©2022 All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
